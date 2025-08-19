@@ -206,6 +206,15 @@ picture{width: 100%;}
 .career .banner{
   background-image: url('../img/CareerBanner.jpg'); /* Replace with your image */
 }
+.career-stress{
+
+  ul{ color: #705146;
+    li{ font-size: 24px; font-weight: 500;
+
+      p{ font-size: 18px; font-weight: 400;}
+    }
+  }
+}
 
 /* Career */
 
