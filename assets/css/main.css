@@ -201,6 +201,7 @@ ul.posivity-list1 {
 picture{width: 100%;}
 
 
+  ul.positivity-list li{margin-bottom: 15px;}
 
 /* Career */
 .career .banner{
@@ -215,6 +216,111 @@ picture{width: 100%;}
     }
   }
 }
+.testimonial-slider{
+  padding-bottom: 100px;
+
+
+
+  .card{border: none; padding: 30px;}
+
+.ratings i{
+  color: #F9C74F;
+}
+.test-icon img{ max-width: 55px; margin-top: 25px;}
+.test-text{  font-style: italic; color: #7B7B7B; padding: 25px 0;}
+
+.u-details { margin-bottom: 15px;
+  .name{ color: #835F53; margin-bottom: 0;font-weight: 600; }
+  .desi{font-size: 14px; color: rgba(0, 0, 0, 0.4);  }
+}
+.badge-test{
+  text-align: center;margin-bottom: -40px;
+
+  span{background-color: #DCFCE7; color: #39827B;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 500; border-radius: 50px;
+  }
+}
+
+.swiper-btn{position: absolute;right: 65px;bottom: 40px;
+}
+
+ .swiper-button-prev, .swiper-button-next { background-color: #fff; color: #705146; transition: all 0.3s ease;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%; box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.05);}
+ .swiper-button-prev:hover, .swiper-button-next:hover{background-color: #705146; color: #fff; }
+
+
+ .swiper-button-next{}
+ .swiper-button-prev {}
+
+ .swiper-button-next::after, .swiper-button-prev::after{ font-size: 22px;  display: flex; align-items: center; justify-content: center;}
+
+
+}
+
+  .swiper-horizontal{ padding-bottom: 100px !important;}
+.swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+  content: 'prev' !important;  
+}
+.swiper-button-prev::after, .swiper-rtl .swiper-button-prev::after {
+  content: 'next' !important;
+}
+.career-journey .crisis{border-radius: 0;}
+
+
+@media (max-width: 991px) {
+
+  .therapist{
+ h2 {
+    font-size: 45px;
+    line-height: 61px;
+  }
+  }
+
+  .career-journey{
+padding: 0 30px; 
+.crisis {
+  border-radius: 15px;
+}
+
+  }
+
+
+}
+
+@media (max-width: 600px) {
+
+.career-stress{
+
+  ul{ color: #705146; list-style-type: none;padding-left: 0;
+    li{ font-size: 18px; font-weight: 500;
+
+      p{ font-size: 16px; font-weight: 400; color: rgba(0, 0, 0, 0.5);}
+    }
+  }
+}
+.career-growth{
+
+    .cbe-benefits.cbe-help {
+    background-color: #fff;
+    padding: 15px;
+  }
+}
+
+ .therapist {
+    & h2 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+
+
+}
+
 
 /* Career */
 
@@ -403,7 +509,7 @@ h4 {
     line-height: 28px;
   }
 
-  ul.positivity-list li{margin-bottom: 25px;}
+  ul.positivity-list li{margin-bottom: 15px;}
 
 .cbe-help {
   padding: 15px;
